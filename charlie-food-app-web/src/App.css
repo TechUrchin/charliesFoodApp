@@ -11,7 +11,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,4 +31,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Review-Squares{
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.Review {
+  width: 33%;
+  height: 30vh;
+  border: 1px solid black;
+  background-color: #61dafb;
+  float: left;
+}
+
+.Review-header{
+  color: white;
+  font-size: calc(15px + 2vmin);
+}
+
+.Review-Para{
+  margin: 5%;
+  float: left;
+}
+
+.Review-logo{
+  width:20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
